@@ -2,6 +2,7 @@ import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
+import Work5 from "../../assets/work5.png";
 export const projectsData = [
   {
     id: 1,
@@ -31,27 +32,14 @@ export const projectsData = [
     category: "web",
     deploymentLink: "https://github.com/Sjaswant55/blogWeb",
   },
-  // {
-  //   id: 5,
-  //   image: Work5,
-  //   title: "E-commerce Site",
-  //   category: "web",
-  //   deploymentLink: "https://dishant-62.github.io/Shopforclothes/",
-  // },
-  // {
-  //   id: 6,
-  //   image: Work6,
-  //   title: "Login Page UI",
-  //   category: "design",
-  //   deploymentLink: "https://uidishant.netlify.app/",
-  // },
-  // {
-  //   id: 7,
-  //   image: Work5,
-  //   title: "Login Bootstrap UI",
-  //   category: "design",
-  //   deploymentLink: "https://login-via-bootstrap.netlify.app/",
-  // },
+  {
+    id: 5,
+    image: Work5,
+    title: "Personal Portfolio",
+    category: "web",
+    deploymentLink: "https://personal-portfolio-t3ev.onrender.com/",
+  },
+   
 ];
 
 export const projectsNav = [
