@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work4.png";
 import Work4 from "../../assets/work1.png";
 import Work5 from "../../assets/work3.png";
+import Work6 from "../../assets/work6.png";
 export const projectsData = [
   {
     id: 1,
@@ -30,7 +31,7 @@ export const projectsData = [
     image: Work4,
     title: "House_price_predictor",
     category: "web",
-    deploymentLink: "",
+    deploymentLink: "https://github.com/Sjaswant55/house_price_predictor",
   },
   {
     id: 5,
@@ -38,6 +39,13 @@ export const projectsData = [
     title: "Facebook Clone",
     category: "web",
     deploymentLink: "https://facebook-clone-dzut.onrender.com/",
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "Dice Game",
+    category: "web",
+    deploymentLink: "https://github.com/Sjaswant55/Dice-Game",
   },
    
 ];
