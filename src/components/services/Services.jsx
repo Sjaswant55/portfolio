@@ -73,7 +73,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow  services__icon"></i>
             <h3 className="services__title">
-              Content <br /> Writer
+              Software <br /> Developer
             </h3>
           </div>
           <span

@@ -6,10 +6,10 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Work from './components/work/Work';
 import Skills from "./components/skills/Skills";
-// import Services from "./components/services/Services";
 import Qualifications from "./components/qualifications/Qualifications";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Contact from "./components/contact/Contact";
+// import Services from "./components/services/Services";
 
 
 function App() {
