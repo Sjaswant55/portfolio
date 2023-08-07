@@ -5,6 +5,7 @@ import Work4 from "../../assets/work1.png";
 import Work5 from "../../assets/work3.png";
 import Work6 from "../../assets/work6.png";
 import Work7 from "../../assets/work7.png";
+import Work8 from "../../assets/work8.png";
 export const projectsData = [
   {
     id: 1,
@@ -54,6 +55,13 @@ export const projectsData = [
     title: "Drum Kit",
     category: "web",
     deploymentLink: "https://thunderous-puppy-d7139b.netlify.app/",
+  },
+  {
+    id: 8,
+    image: Work8,
+    title: "KeepNotes",
+    category: "web",
+    deploymentLink: "https://keepnote-ilwvb1zym-sjaswant55.vercel.app/",
   },
    
 ];
