@@ -15,7 +15,10 @@ const Contact = () => {
     );
     e.target.reset();
   };
-
+  const clickHandler = (e) =>{
+       alert("To Mr. Jaswant Singh, your message has been delivered. As quickly as possible, he will respond.");
+       e.preventDefault();
+  }
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in Touch</h2>
@@ -104,8 +107,8 @@ const Contact = () => {
                 placeholder="Enter your query/request here"
               ></textarea>
             </div>
-            <button className="button button--flex">
-              Send Message
+            <button className="button button--flex" onClick={clickHandler}>
+              Send Message 
               <svg
               
                 class="button__icon"
